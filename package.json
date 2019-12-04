@@ -1,0 +1,37 @@
+{
+  "name": "svgin",
+  "version": "1.0.0",
+  "description": "Function for merging the paths of an SVG image",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgiobairog/svgin.git"
+  },
+  "keywords": [
+    "utilities"
+  ],
+  "author": "Jason Wilson <jason@wilsons.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgiobairog/svgin/issues"
+  },
+  "homepage": "https://github.com/sgiobairog/svgin#readme",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "nodemon": "^2.0.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/libxmljs": "^0.18.5",
+    "@types/xml2js": "^0.4.5",
+    "fastify": "^2.10.0",
+    "libxmljs": "^0.19.7",
+    "xml2js": "^0.4.22"
+  }
+}
