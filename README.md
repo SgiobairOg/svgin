@@ -7,9 +7,10 @@ Takes an SVG element and merges all paths into a single path element. Currently 
 ### Curl
 
 ```bash
-	npm run start
+npm install
+npm run start
 
-	curl --noproxy localhost -H 'Content-type: text/xml' -d @test.xml -X POST http://localhost:3080/v1/gin
+curl --noproxy localhost -H 'Content-type: text/xml' -d @test.xml -X POST http://localhost:3080/v1/gin
 ```
 
 The `--noproxy` flag and host value are only necessary when behind a proxy.

@@ -45,7 +45,6 @@ export module Gin {
 
 	function removeEmptyNodes(parent: libxml.Element) {
 		const emptyNodes = parent.find("//*[name()='g' and not(*)]");
-		console.log("emptyNodes", emptyNodes);
 		emptyNodes.forEach( node => node.remove());
 	}
 }
